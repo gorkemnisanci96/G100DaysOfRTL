@@ -63,7 +63,7 @@ day61: Paramatrazible N-bit sequential Multiplier for SIGNED numbers. <br />
 day62: Least Recently Granted Based Arbiter                           <br />
 day63: Full Adder Circuit with Gate-Level Modelling                   <br />
 day64: 16-Bit Ripple Adder                                            <br />
-day65: <br />
+day65: 16-Bit Carry-Skip-Adder                                        <br />
 day66: <br />
 day67: <br />
 day68: <br />
