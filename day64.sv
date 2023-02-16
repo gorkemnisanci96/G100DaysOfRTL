@@ -1,6 +1,30 @@
 `timescale 1ns / 1ps
 // 16-bit Ripple Adder
 
+//==================================
+// FULL ADDER MODULE 
+//==================================
+module FULL_ADDER(
+   input logic A,
+   input logic B,
+   input logic Cin,
+   output logic S,
+   output logic Cout
+    );
+    
+ logic t1,t2,t3;
+ 
+ xor xor1(t1,A,B);
+ xor xor2(S,t1,Cin);
+ and and1(t2,Cin,t1);
+ and and2(t3,A,B);
+ or  or1(Cout,t2,t3);     
+    
+endmodule
+
+//==================================
+// 16-BIT RIPPLE ADDER 
+//==================================
 module RIPPLE_ADDER_16BIT(
     input  logic [15:0] A,
     input  logic [15:0] B,
