@@ -1,4 +1,4 @@
-// ONE-HOT 3 Always Block 
+// ONE-HOT-3 Always Block State Machine 
 
 enum {
   IDLE = 0,
