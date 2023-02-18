@@ -1,1 +1,1 @@
-# Edge Triggered Flip Flop
+##  Dual Edge Triggered Flip Flop
