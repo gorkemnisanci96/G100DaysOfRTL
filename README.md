@@ -48,13 +48,13 @@ day46: System Verilog Queue                                 <br />
 day47: System Verilog Interview Questions [NOT COMPLETED]   <br />
 day48: System Verilog Constraints "inside" keyword          <br />
 day49: System Verilog Constraints Weighted Distribution     <br />
-day50: UVM Series 7: uvm_sequence_item methods                  <br />
-day51: FSM: 1 always Block Coding Style - Registered Outputs    <br />
-day52: FSM: 2 always Block Coding Style - Combinatorial Outputs <br />
-day53: FSM: 3 always Block Coding Style - Registered Outputs    <br />
-day54: FSM: 4 always Block Coding Style - Registered Outputs    <br />
-day55: ONE-HOT-3 Always Block State Machine                     <br />
-day56: <br />
+day50: UVM Series 7: uvm_sequence_item methods                         <br />
+day51: (FSM) 1 always Block Coding Style - Registered Outputs          <br />
+day52: (FSM) 2 always Block Coding Style - Combinatorial Outputs       <br />
+day53: (FSM) 3 always Block Coding Style - Registered Outputs          <br />
+day54: (FSM) 4 always Block Coding Style - Registered Outputs          <br />
+day55: (FSM) ONE-HOT 3 always Block Coding Style - Registered Outputs  <br />
+day56: (FSM) Output Encoded FSM                                        <br />
 day57: <br />
 day58: RESET SYNCRONIZER                                              <br />
 day59: Clock Gating With Latch                                        <br />
