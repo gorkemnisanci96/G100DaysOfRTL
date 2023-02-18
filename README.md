@@ -53,7 +53,7 @@ day51: FSM: 1 always Block Coding Style - Registered Outputs    <br />
 day52: FSM: 2 always Block Coding Style - Combinatorial Outputs <br />
 day53: FSM: 3 always Block Coding Style - Registered Outputs    <br />
 day54: FSM: 4 always Block Coding Style - Registered Outputs    <br />
-day55: <br />
+day55: ONE-HOT-3 Always Block State Machine                     <br />
 day56: <br />
 day57: <br />
 day58: RESET SYNCRONIZER                                              <br />
