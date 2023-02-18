@@ -55,17 +55,17 @@ day53: (FSM) 3 always Block Coding Style - Registered Outputs          <br />
 day54: (FSM) 4 always Block Coding Style - Registered Outputs          <br />
 day55: (FSM) ONE-HOT 3 always Block Coding Style - Registered Outputs  <br />
 day56: (FSM) Output Encoded FSM                                        <br />
-day57: Edge Triggered Flip-Flop                                       <br />
-day58: RESET SYNCRONIZER                                              <br />
-day59: Clock Gating With Latch                                        <br />
-day60: 4-bit sequential Multiplier                                    <br />
-day61: Paramatrazible N-bit sequential Multiplier for SIGNED numbers. <br />
-day62: Least Recently Granted Based Arbiter                           <br />
-day63: Full Adder Circuit with Gate-Level Modelling                   <br />
-day64: 16-Bit Ripple Adder                                            <br />
-day65: 16-Bit Carry-Skip-Adder                                        <br />
-day66: 32-bit Carry-Select-Adder                                      <br />
-day67:                                                                <br />
+day57: Dual Edge Triggered Flip-Flop                                   <br />
+day58: RESET SYNCRONIZER                                               <br />
+day59: Clock Gating With Latch                                         <br />
+day60: 4-bit sequential Multiplier                                     <br />
+day61: Paramatrazible N-bit sequential Multiplier for SIGNED numbers.  <br />
+day62: Least Recently Granted Based Arbiter                            <br />
+day63: Full Adder Circuit with Gate-Level Modelling                    <br />
+day64: 16-Bit Ripple Adder                                             <br />
+day65: 16-Bit Carry-Skip-Adder                                         <br />
+day66: 32-bit Carry-Select-Adder                                       <br />
+day67:                                                                 <br />
 day68: <br />
 day69: <br />
 day70: <br />
