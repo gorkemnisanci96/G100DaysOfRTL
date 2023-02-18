@@ -40,7 +40,7 @@ day38: SV Classes 5: Parameterized Class Definitions     <br />
 day39: UVM series 1: UVM Phases.                         <br />
 day40: UVM Series 2: Basic UVM Structure                 <br />
 day41: UVM Series 3: Simple UVM example with uvm_test,uvm_env,uvm_drive, and interface      <br />
-day42:     <br />
+day42: UVM Series 4: UVM example with Driver-Sequencer Connection                           <br />
 day43:     <br />
 day44: UVM Series 6: UVM example with  RISC-V ALU           <br />
 day45: System Verilog Events                                <br />
