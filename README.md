@@ -55,7 +55,7 @@ day53: (FSM) 3 always Block Coding Style - Registered Outputs          <br />
 day54: (FSM) 4 always Block Coding Style - Registered Outputs          <br />
 day55: (FSM) ONE-HOT 3 always Block Coding Style - Registered Outputs  <br />
 day56: (FSM) Output Encoded FSM                                        <br />
-day57: <br />
+day57: Edge Triggered Flip-Flop                                       <br />
 day58: RESET SYNCRONIZER                                              <br />
 day59: Clock Gating With Latch                                        <br />
 day60: 4-bit sequential Multiplier                                    <br />
