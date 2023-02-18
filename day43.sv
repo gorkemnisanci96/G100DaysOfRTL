@@ -1,12 +1,9 @@
-// UVM Example with APB protocol 
+// UVM Example with APB protocol Connection 
 // Includes: 
 // Top --> Test --> ENV --> Agent --> Sequencer(seq_item) <-- Connection between sequence and driver.  
 //                                --> Driver(seq_item)    --> Drive DUT. 
 //                                --> Monitor             <-- Monitor DUT. 
-////////////////////////////////////////
-// Future Work:  
-// Add Squence Item Functions 
-// Add a scoreboard for self checks 
+
 
 
 
