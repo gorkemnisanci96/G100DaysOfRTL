@@ -64,7 +64,7 @@ day62: Least Recently Granted Based Arbiter                            <br />
 day63: Full Adder Circuit with Gate-Level Modelling                    <br />
 day64: 16-Bit Ripple Adder                                             <br />
 day65: 16-Bit Carry-Skip-Adder                                         <br />
-day66: 32-bit Carry-Select-Adder                                       <br />
+day66: 32-bit Linear Carry-Select-Adder                                <br />
 day67:                                                                 <br />
 day68: <br />
 day69: <br />
