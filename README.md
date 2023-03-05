@@ -66,8 +66,8 @@ day64: 16-Bit Ripple Adder                                             <br />
 day65: 16-Bit Carry-Skip-Adder                                         <br />
 day66: 32-bit Linear Carry-Select-Adder                                <br />
 day67: Dual Clock Asynchronous FIFO                                    <br />
-day68: <br />
-day69: <br />
+day68: Unsigned Multiplication (sequential SchoolBook Method)          <br />
+day69: Booth Algorithm (Sequential Signed Multiplication)              <br />
 day70: <br />
 day71: <br />
 day72: <br />
