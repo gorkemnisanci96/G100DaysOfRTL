@@ -68,7 +68,7 @@ day66: 32-bit Linear Carry-Select-Adder                                <br />
 day67: Dual Clock Asynchronous FIFO                                    <br />
 day68: Unsigned Multiplication (sequential SchoolBook Method)          <br />
 day69: Booth Algorithm (Sequential Signed Multiplication)              <br />
-day70: <br />
+day70: Multiply-Divide Algorithm with individual signed/unsigned number selection flags. <br />
 day71: <br />
 day72: <br />
 day73: <br />
