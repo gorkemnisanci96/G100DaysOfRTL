@@ -69,7 +69,7 @@ day67: Dual Clock Asynchronous FIFO                                    <br />
 day68: Unsigned Multiplication (sequential SchoolBook Method)          <br />
 day69: Booth Algorithm (Sequential Signed Multiplication)              <br />
 day70: Multiply-Divide Algorithm with individual signed/unsigned number selection flags. <br />
-day71: <br />
+day71: MSI Cache Coherency Protocol - State Diagram                      <br />
 day72: <br />
 day73: <br />
 day74: <br />
