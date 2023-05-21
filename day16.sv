@@ -2,15 +2,15 @@
 ///////////////////////////////////////////
 // Synchronous FIFO Memory 
 
-module day16
-#(parameter DATAWIDTH = 8,
-  parameter FIFODEPTH = 5)
+module FIFO
+#(parameter DATAWIDTH = 40,
+  parameter FIFODEPTH = 64)
 (
   input logic clk,
   input logic rstn,
   //
-  input logic                   i_WrtEn,
-  input logic [(DATAWIDTH-1):0] i_DataIn,
+  input logic                    i_WrtEn,
+  input logic [(DATAWIDTH-1):0]  i_DataIn,
   //
   input  logic                   i_RdEn,
   output logic [(DATAWIDTH-1):0] o_DataOut,             
@@ -20,12 +20,12 @@ module day16
     );
     
     
-logic [(DATAWIDTH-1):0] FifoMem [(FIFODEPTH-1):0]; 
+logic [(2**FIFODEPTH-1):0][(DATAWIDTH-1):0]    FifoMem ; 
     
-logic [$clog2(FIFODEPTH):0] counter;
+logic [(FIFODEPTH):0]      counter;
 
-logic [$clog2(FIFODEPTH):0] RdPtr;
-logic [$clog2(FIFODEPTH):0] WrtPtr;
+logic [(FIFODEPTH-1):0]    RdPtr;
+logic [(FIFODEPTH-1):0]    WrtPtr;
 
 
 //////////////////////////////////////
@@ -103,20 +103,20 @@ begin
    end 
 end 
 
-assign o_Full  = (counter == (FIFODEPTH));
+assign o_Full  = (counter == (2**FIFODEPTH));
 assign o_Empty = (counter == 0);
 
 
 
     
     
-endmodule
+endmodule :FIFO
 
 
-module day16_tb();
+module FIFO_tb();
 
-parameter DATAWIDTH = 8;
-parameter FIFODEPTH = 5;
+parameter DATAWIDTH = 40;
+parameter FIFODEPTH = 3;
 
 
 logic clk;
@@ -177,7 +177,7 @@ task PULL();
 begin
   @(posedge clk); #1;
      i_RdEn = 1'b1;
-     $display("THE DATA PULLED %d",o_DataOut); 
+     if(~o_Empty) begin $display("THE DATA PULLED %h",o_DataOut); end 
   @(posedge clk); #1;
      i_RdEn = 1'b0; 
      
@@ -193,6 +193,10 @@ initial begin
   PUSH(4);
   PUSH(5);
   PUSH(6);
+  PUSH(7);
+  PUSH(8);
+  PUSH(9);
+  PUSH(10);
   // 
   PULL();
   PULL();
@@ -200,9 +204,33 @@ initial begin
   PULL();
   PULL();
   PULL();
+  PULL();
+  PULL();
+  PULL();
+  PULL();
   //
-  
-
+  PUSH('hB);
+  PUSH('hA);
+  PUSH('hB);
+  PUSH('hE);
+  PUSH('hC);
+  PUSH('hA);
+  PUSH('hF);
+  PUSH('hE);
+  PUSH('hA);
+  PUSH('hB);
+  //
+  PULL();
+  PULL();
+  PULL();
+  PULL();
+  PULL();
+  PULL();
+  PULL();
+  PULL();
+  PULL();
+  PULL();
+  //
   $finish; 
 end 
 
@@ -210,15 +238,12 @@ end
 ////////////////////////
 //  DUT INSTANTIATION 
 ///////////////////////
-day16
+FIFO
 #( .DATAWIDTH (DATAWIDTH),
    .FIFODEPTH (FIFODEPTH))
-uday16
+uFIFO
 (.*);
     
 
 
-endmodule :day16_tb 
-
-
-
+endmodule :FIFO_tb 
