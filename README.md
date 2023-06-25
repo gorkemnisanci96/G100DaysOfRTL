@@ -72,5 +72,5 @@ day70: Multiply-Divide Algorithm with individual signed/unsigned number selectio
 day71: MSI Cache Coherency Protocol - State Diagram                     <br />
 day72: Difference Between "==" and "==="                                <br />
 day73: LED Blink Algorithm on Nexys 4 DDR FPGA Board                    <br />
-day74: <br />
+day74: PLL usage on Nexys 4 DDR FPGA board                              <br />
 day75: <br />
