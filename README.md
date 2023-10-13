@@ -74,3 +74,4 @@ day72: Difference Between "==" and "==="                                <br />
 day73: LED Blink Algorithm on Nexys 4 DDR FPGA Board                    <br />
 day74: PLL usage on Nexys 4 DDR FPGA board                              <br />
 day75: TREE-PSEUDO LEAST RECENTLY USED ALGORITHM                        <br />
+day76: 8-bit Skip-by-3 Counter                                          <br />  
