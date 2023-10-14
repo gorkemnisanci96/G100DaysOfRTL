@@ -11,4 +11,14 @@ How do you solve this problem without pipelining the combinational logic ?
 
 Solution: 
 
+We can dublicate the Combinational Circuit with A equals to 0 and 1 and make the Value A the selection signal for the MUX. In this case the value A skips the delay of the combinational logic and meets the timing. 
+
+Advantages: 
+- Timing Violations is resolved.
+- We did not resign circuit.
+
+Disadvantages: 
+- Hardware is dublicated for the Combinational logic. 
+
+
 ![image](day78_2.png)
