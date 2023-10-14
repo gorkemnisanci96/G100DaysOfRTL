@@ -9,12 +9,13 @@ Hints:
 - Always Consider the worst case.
 - Read/Write speed may be the same but burst size matters.
 
+![image](day79_0.png)
 
 Solution: 
 
 In this case the Avarage speed is same! But the burst size is different so we need a fifo. 
 
-
+![image](day79_1.png)
 
 
 
