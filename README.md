@@ -78,3 +78,4 @@ day75: CLK Divide by 2/3 Circuit                                        <br />
 day77: 8-bit Skip-by-3 Counter                                          <br />  
 day78: Solving Timing Violation Question                                <br /> 
 day79: Calculating the Fifo Depth Question                              <br /> 
+day80: Design a MinMax4 and MixMax6 Circuits                            <br /> 
