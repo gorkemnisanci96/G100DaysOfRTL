@@ -1,1 +1,1 @@
-![notes][notes_day76.jpg]
+![Screenshot][notes_day76.jpg]
