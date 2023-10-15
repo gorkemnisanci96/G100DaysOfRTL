@@ -11,4 +11,4 @@ How will you check for a mismatch in connection ? What patterns are required ?
 
 
 
-So we need at least 4 patterns to detect any missmatch on 10 bits. 
+So we need at least 4 patterns to detect any missmatch on 10 bits.  So the number of patterns required to detect missmatch is $clog2(number_of_wires).
