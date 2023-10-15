@@ -4,3 +4,6 @@ Use the MUX control signals "Load X and Y"  and "Select the Logic Op" to exchang
 
 ![circuit](day82_1.png)
 
+Solution:
+
+![circuit](day82_2.png)
