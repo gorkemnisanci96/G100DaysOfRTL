@@ -13,7 +13,10 @@ assign o_num_bcd[7]   = 1'b0;
 assign o_num_bcd[6]   = i_num_bcd[3];
 assign o_num_bcd[5]   = i_num_bcd[2];
 assign o_num_bcd[4]   = i_num_bcd[1];
-assign o_num_bcd[3:0] = i_num_bcd[0] ? 4'd5  : 4'd0; 
+assign o_num_bcd[3]   = 1'b0;
+assign o_num_bcd[2]   = i_num_bcd[0];
+assign o_num_bcd[1]   = 1'b0;
+assign o_num_bcd[0]   = i_num_bcd[0];
 
 
 
