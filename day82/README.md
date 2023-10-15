@@ -5,7 +5,9 @@ Use the MUX control signals "Load X and Y"  and "Select the Logic Op" to exchang
 ![circuit](day82_1.png)
 
 
-#### Solution: 
-         Load X and Y   |  Select Logic OP    
-Step 1:      Load X     |  Select XOR        
-Step 2:
+Solution: 
+         Load A and B   |  Select Logic OP  | Register A | Register B
+Initial                 |                   |     A      |     B 
+Step 1:      Load A     |  Select XOR       |   AxorB    |     B 
+Step 2:      Load B     |  Select XOR       |   AxorB    |   AxorBxorB=A
+Step 3:      Load A     |  Select XOR       |AxorBxorA=B |     A   
