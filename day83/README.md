@@ -11,30 +11,30 @@ Solution:
 - Gray Counter will have 2^n toggles.
 - For Binary Counter, lets analyze the 2-bit and 3-bit counters.
    
-00 | NA
-01 | 1
-10 | 2
-11 | 1
-Total Toggles = 6 
+00 | NA   <br />
+01 | 1    <br />
+10 | 2    <br />
+11 | 1    <br />
+Total Toggles = 6  <br />
 
-3-bit Counter 
-000 | NA 
-001 | 1
-010 | 2
-011 | 1
-100 | 3
-101 | 1
-110 | 2
-111 | 1
-Total Toggles = 14
+3-bit Counter  <br />
+000 | NA       <br /> 
+001 | 1        <br />
+010 | 2        <br />
+011 | 1        <br />
+100 | 3        <br />
+101 | 1        <br />
+110 | 2        <br />
+111 | 1        <br />
+Total Toggles = 14  <br />
 
 
-- Number of toggles for n-bit binary is 2^(n+1)-2.
-- Total Power dissipation for Binary Counter= 2^(n+1) -2
+- Number of toggles for n-bit binary is 2^(n+1)-2. <br />
+- Total Power dissipation for Binary Counter= 2^(n+1) -2 <br />
 
-- Number of toggles for Gray Counter = 2^n
--Total power dissipation for Gray Counter = 3*2^n
-So Gray counter consumes more power.
+- Number of toggles for Gray Counter = 2^n <br />
+-Total power dissipation for Gray Counter = 3*2^n <br />
+So Gray counter consumes more power. <br />
 
 
 
