@@ -4,6 +4,10 @@ Questiom: Block A drives 100 wires to block B. They are connected in order i.e i
 
 How will you check for a mismatch in connection ? What patterns are required ? 
 
+
+![solution](day86_1.png)
+
+
 Solution:
    Start with Downsized version of the problem. Lets take 10. 
    - Below at each step, each group only can be missmatch within the group. Not with other groups. 
