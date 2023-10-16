@@ -8,4 +8,4 @@ Ripple counter is a cascaded arrangement of flip-flops where the output of one f
 - Only one flip-flop is applied with an external clock pulse and another flip-flop clock is obtained from the output of the previous flip-flop.
 - The flip-flop applied with an external clock pulse act as LSB (Least Significant Bit) in the counting sequence.
 
-![output](day91_1.sv)
+![output](day91_1.png)
