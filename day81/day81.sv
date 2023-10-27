@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// 1 digic Decimal BCD (4-bit) multiply by 5. 
+// 1 digit Decimal BCD (4-bit) multiply by 5. 
 
 
 module bcd_mul_by_5(
