@@ -1,3 +1,6 @@
+## 1 digit Decimal BCD (4-bit) multiply by 5
+
+
 INPUT      OUTPUT         <br />
 0000  0  0000 0000   0    <br />
 0001  1  0000 0101   5    <br />
