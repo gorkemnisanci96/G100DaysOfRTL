@@ -15,6 +15,5 @@ Input N, D (I-bit signals for Nickel and Dime)
 Output open(l-bit output. '1' when 15cents or more are deposited in vending machine) 
 
 # MOORE FSM Implementation 
-![output](day93_2.png =250x250)
-<img src="day93_2.png" width="100" height="100">
+<img src="day93_2.png" width="250" height="250">
 ![output](day93_1.png)
