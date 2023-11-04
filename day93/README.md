@@ -8,7 +8,7 @@ Design Develop systemvenlog Moore and Mealy FSM Requirements :
 - Use one hot encoding for states and assume asynchronous active low reset 
 - Note : DO NOT register output "open" in both mealy and moore implementation. 
 
--Primary port list : Input N, D, clk, rstn, output open 
+-Primary port list : Input N, D, clk, rstn, output open     
 Input clk (clock) 
 Input rstn (synchronous reset / negedge signal) 
 Input N, D (I-bit signals for Nickel and Dime) 
