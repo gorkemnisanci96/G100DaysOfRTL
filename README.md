@@ -80,8 +80,8 @@ day78: Solving Timing Violation Question                                <br />
 day79: Calculating the Fifo Depth Question                              <br /> 
 day80: Design a MinMax4 and MixMax6 Circuits                            <br /> 
 day81: 1 digit Decimal BCD (4-bit) multiply by 5                        <br /> 
-day82: How will you exchange the Contents of "X" and "Y" ?              <br /> 
-day83: Binary-Gray: Which Counter Consumes More Power ?                 <br />  
+day82: How will you exchange the Contents of "X" and "Y" ?              <br />
+day83: Binary-Gray: Which Counter Consumes More Power ?                 <br />
 day84: Circuit to Count the Number of 1s in A 7-bit Vector<br />
 day85: Design a circuit to count 1's in a Bus<br /> 
 day86: How many Patterns are required to Detect a Wiring Missmatch ?<br /> 
