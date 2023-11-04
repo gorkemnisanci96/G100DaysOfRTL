@@ -75,7 +75,7 @@ day73: LED Blink Algorithm on Nexys 4 DDR FPGA Board                    <br />
 day74: PLL usage on Nexys 4 DDR FPGA board                              <br />
 day75: TREE-PSEUDO LEAST RECENTLY USED ALGORITHM                        <br />
 day76: CLK Divide by 2/3 Circuit                                        <br />
-day77: 8-bit Skip-by-3 Counter                                          <br />  
+day77: 8-bit Skip-by-3 Counter                                          <br />
 day78: Solving Timing Violation Question                                <br /> 
 day79: Calculating the Fifo Depth Question                              <br /> 
 day80: Design a MinMax4 and MixMax6 Circuits                            <br /> 
