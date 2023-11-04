@@ -19,4 +19,4 @@ Output open(l-bit output. '1' when 15cents or more are deposited in vending mach
 <img src="day93_1.png">
 # MEALY FSM Implementation 
 <img src="day93_3.png" width="430" height="400">
-<img src="day93_4.png" width="430" height="400">
+<img src="day93_4.png">
