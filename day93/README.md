@@ -16,4 +16,4 @@ Output open(l-bit output. '1' when 15cents or more are deposited in vending mach
 
 # MOORE FSM Implementation 
 <img src="day93_2.png" width="400" height="400">
-![output](day93_1.png)
+<img src="day93_1.png">
