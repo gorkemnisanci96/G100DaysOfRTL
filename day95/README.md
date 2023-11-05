@@ -15,4 +15,4 @@ An English-language description of the FSM is given below:
 Draw the state diagram for an FSM that controls the traffic lights.   
 
 
-<img src="day94_2.png" width="550" height="450">  
+<img src="day95_1.png" width="550" height="450">  
