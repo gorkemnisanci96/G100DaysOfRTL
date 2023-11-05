@@ -13,3 +13,6 @@ An English-language description of the FSM is given below:
 (4) A direction can have a green light only if the light in the other direction is red.  
 
 Draw the state diagram for an FSM that controls the traffic lights.   
+
+
+<img src="day94_2.png" width="550" height="450">  
