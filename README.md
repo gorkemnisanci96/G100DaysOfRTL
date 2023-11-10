@@ -90,3 +90,8 @@ day88: Design a Circuit to Count Rising Edges.                          <br />
 day89:                 <br />
 day90:            Design a Circuit to Detect Pattern 10110              <br />
 day91: Design a 4-bit Ripple Counter.                                   <br />
+day92: Signed and Unsigned Binary Number Comparison                     <br />
+day93: Mealy and Moore FSM for Vending Machine                          <br />
+day94: FSM to take 2's complement of a bit-stream                       <br />
+day95: Mealy FSM for traffic Lights                                     <br />
+day96: Overlapping Sequence Detector Circuit using Mealy FSM            <br />
