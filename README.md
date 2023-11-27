@@ -95,3 +95,4 @@ day93: Mealy and Moore FSM for Vending Machine                          <br />
 day94: FSM to take 2's complement of a bit-stream                       <br />
 day95: Mealy FSM for traffic Lights                                     <br />
 day96: Overlapping Sequence Detector Circuit using Mealy FSM            <br />
+day97: Bubble Sort Algorithm                                           <br />
